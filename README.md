@@ -1,12 +1,38 @@
-# React + Vite
+# Recipe Finder App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application that fetches recipes from **TheMealDB API**, allowing users to search and view detailed recipe information in a responsive and user-friendly interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **Overview**
 
-## Expanding the ESLint configuration
+The Recipe Finder App demonstrates:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Fetching and managing API data with a custom React hook.  
+- Reusable and modular components for recipe listing and details.  
+- Routing with React Router for navigation between Home and Recipe Details pages.  
+- Real-time search functionality for filtering recipes.  
+- Loading and error state handling for a smooth user experience.  
+
+---
+
+## **Features**
+
+- Browse a list of recipes from TheMealDB API.  
+- Search recipes by name.  
+- View detailed information for each recipe, including instructions, category, area, and optional YouTube video links.  
+- Fully responsive design for desktop and mobile devices.  
+
+## Installation
+### 1. Clone the repository
+git clone https://github.com/<username>/<repository-name>.git
+cd <repository-name>
+
+### 2. Install dependencies
+npm install
+
+### 3. Start the development server
+npm run dev
+
+### 4. Open your browser and navigate to:
+http://localhost:5173
