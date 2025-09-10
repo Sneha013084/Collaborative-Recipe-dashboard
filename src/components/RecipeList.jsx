@@ -11,7 +11,6 @@ function RecipeList({ recipes }) {
         <div className="recipe-grid">
             {recipes.map((r) => (
                 <RecipeCard 
-                    key={r.idMeal}
                     idMeal={r.idMeal}
                     name={r.strMeal}
                     category={r.strCategory}

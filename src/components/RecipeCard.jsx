@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 /**
  * RecipeCard displays individual recipe details.
  */
-function RecipeCard({ name, category, area, image }) {
+function RecipeCard({ idMeal, name, category, area, image }) {
     return (
         <div className="recipe-card">
             <img src={image} alt={name} />
