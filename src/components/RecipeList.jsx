@@ -12,6 +12,7 @@ function RecipeList({ recipes }) {
             {recipes.map((r) => (
                 <RecipeCard 
                     key={r.idMeal}
+                    idMeal={r.idMeal}
                     name={r.strMeal}
                     category={r.strCategory}
                     area={r.strArea}
