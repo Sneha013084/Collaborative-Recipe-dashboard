@@ -1,7 +1,9 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 import { useRecipes } from "./hooks/useRecipes";
 import RecipeList from "./components/RecipeList";
 import SearchBar from "./components/SearchBar";
+import RecipeDetailsPage from "./components/RecipeDetailsPage";
 import './App.css';
 
 /**
@@ -16,8 +18,18 @@ function App() {
   return (
     <div className="app">
       <h1>Recipe Finder</h1>
-      <SearchBar search={search} setSearch={setSearch} />
-      <RecipeList recipes={recipes} />
+      <Routes>
+        <Route 
+          path="/"
+          element={
+            <>
+              <SearchBar search={search} setSearch={setSearch} />
+              <RecipeList recipes={recipes} />
+            </>
+          }
+        />
+        <Route path="/recipe/:id" element={<RecipeDetailsPage />} />
+      </Routes>
     </div>
   );
 };
