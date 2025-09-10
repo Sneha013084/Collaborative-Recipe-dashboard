@@ -42,11 +42,6 @@ GitHub Codespaces allows you to create a cloud-based development environment dir
 ## Overview
 Brief description of your project.
 
-## Team Members
-- Alice – Frontend
-- Bob – Backend
-- Charlie – Documentation
-
 ## Repository Setup
 - Main branch is protected.
 - Changes must go through pull requests.
