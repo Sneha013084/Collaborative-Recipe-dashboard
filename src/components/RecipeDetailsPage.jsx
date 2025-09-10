@@ -45,3 +45,5 @@ function RecipeDetailsPage() {
     </div>
   );
 };
+
+export default RecipeDetailsPage;
