@@ -9,7 +9,7 @@ function SearchBar({ search, setSearch }) {
             type="text"
             placeholder="Search recipes..."
             value={search}
-            onChange={(e) => setSearch(e.target.value)};
+            onChange={(e) => setSearch(e.target.value)}
         />
     );
 };
