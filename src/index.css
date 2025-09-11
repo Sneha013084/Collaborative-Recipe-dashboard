@@ -1,0 +1,68 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and global font */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fffdf7;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Buttons (if used later) */
+button {
+  cursor: pointer;
+  border: none;
+  background-color: #2b7a78;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #3aafa9;
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Scrollbar styling for better UX */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2b7a78;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #3aafa9;
+}
